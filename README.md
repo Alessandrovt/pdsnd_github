@@ -2,7 +2,7 @@
 The bikeshare project was completed on 19th Oct 2019. The repo and README was created on github on 27th Oct 2019.
 
 ### Project Title
-Bikeshare Data US
+Udacity US Bikeshare Project
 
 ### Description
 The bikeshare project lists time, usage and other misc statistics for three US cities based on input filters from the user.
