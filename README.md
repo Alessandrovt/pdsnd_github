@@ -5,7 +5,7 @@ The bikeshare project was completed on 19th Oct 2019. The repo and README was cr
 Udacity US Bikeshare Project
 
 ### Description
-The bikeshare project lists time, usage and other misc statistics for three US cities based on input filters from the user.
+The Udacity bikeshare project uses data provided by bike-sharing company Motivate to provide descriptive statistics based on user inputs for three US cities.
 
 ### Files used
 The files include the code itself in the Final Submission.py file, and the three data files: chicago.csv, new_york_city.csv, and washington.csv.
