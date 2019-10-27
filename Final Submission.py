@@ -36,7 +36,7 @@ def get_filters():
 
         try:
             month = input('Enter a month from January to June, or all:\n').title()
-        except:
+        except ValueError:
             print("Invalid input")
 
         if month not in {"January", "February", "March", "April", "May", "June", "All"}:
