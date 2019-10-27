@@ -38,7 +38,7 @@ def get_filters():
         try:
             # user input for month filter
             month = input('Enter a month from January to June, or all:\n').title()
-        except:
+        except ValueError:
             print("Invalid input")
 
         if month not in {"January", "February", "March", "April", "May", "June", "All"}:
@@ -145,7 +145,7 @@ def station_stats(df):
     # TO DO: display most frequent combination of start station and end station trip
     # This answer came from https://stackoverflow.com/a/50848470, as I was using .mode and couldn't figure out why it wasn't working. My googling came across the answer.
     count = df.groupby(["Start Station","End Station"]).size().nlargest(1)
-    print("The most commonly used start and end combination of stations is: ", count)
+    print("The most commonly taken trip is: ", count)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
