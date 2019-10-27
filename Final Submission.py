@@ -20,6 +20,7 @@ def get_filters():
     while True:
 
         try:
+            # user input for city filter
             city = input('Would you like to explore data from Chicago, New York City or Washington?\n').title()
         except ValueError:
             print("Invalid input")
@@ -35,6 +36,7 @@ def get_filters():
     while True:
 
         try:
+            # user input for month filter
             month = input('Enter a month from January to June, or all:\n').title()
         except:
             print("Invalid input")
@@ -51,6 +53,7 @@ def get_filters():
     while True:
 
         try:
+            # user input for day filter
             day = input('Enter the day of the week:\n').title()
         except ValueError:
             print("Invalid input")
