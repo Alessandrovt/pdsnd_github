@@ -12,3 +12,4 @@ The files include the code itself in the Final Submission.py file, and the three
 
 ### Credits
 The bikeshare data csvs were provided by Motivate, a bike share system provider in the US.
+A stackoverflow answer was used in the coding: https://stackoverflow.com/a/50848470
