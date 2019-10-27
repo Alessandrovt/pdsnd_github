@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+The bikeshare project was completed on 19th Oct 2019. The repo and README was created on github on 27th Oct 2019.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data US
 
 ### Description
-Describe what your project is about and what it does
+The bikeshare project lists time, usage and other misc statistics for three US cities based on input filters from the user.
 
 ### Files used
-Include the files used
+The files include the code itself in the Final Submission.py file, and the three data files: chicago.csv, new_york_city.csv, and washington.csv.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The bikeshare data csvs were provided by Motivate, a bike share system provider in the US.
